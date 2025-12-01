@@ -14,10 +14,10 @@ export default {
             { text: 'Introduction', link: '/' },
             { text: 'Installation', link: '/install' },
             { text: 'Usage', link: '/usage' },
-            // { text: 'Components', link: '/components' },
-            // { text: 'Interfaces', link: '/interfaces' },
-            // { text: 'Form Model', link: '/models' },
-            // { text: 'Validation', link: '/validations' }
+            { text: 'Components', link: '/components' },
+            { text: 'Interfaces', link: '/interfaces' },
+            { text: 'Form Model', link: '/models' },
+            { text: 'Validation', link: '/validations' }
           ]
         }
       ]

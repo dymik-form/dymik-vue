@@ -2,7 +2,7 @@
 
 ## Overview
 
-`dymik-core` provides a flexible validation system through the `ValidatorUtils` class that supports multiple validation libraries like `arktype` (default) and `zod`. This allows you to validate form data using your preferred library or even create custom validators.
+`@dymik-form/dymik-vue` provides a flexible validation system through the `ValidatorUtils` class that supports multiple validation libraries like `arktype` (default) and `zod`. This allows you to validate form data using your preferred library or even create custom validators.
 
 ## Features
 
@@ -35,7 +35,7 @@ The following validation rule types are supported:
 By default, `ValidatorUtils` uses `arktype`. You can switch to another library:
 
 ```typescript
-import ValidatorUtils from '@dymik-form/dymik-core/utils/validator';
+import ValidatorUtils from '@dymik-form/dymik-vue/utils/validator';
 
 // Switch to zod
 ValidatorUtils.setLib('zod');
@@ -49,7 +49,7 @@ ValidatorUtils.setLib('ark_type');
 Use the `validate` method to validate a value against a rule:
 
 ```typescript
-import ValidatorUtils from '@dymik-form/dymik-core/utils/validator';
+import ValidatorUtils from '@dymik-form/dymik-vue/utils/validator';
 
 const rule = {
   type: 'email',
@@ -89,7 +89,7 @@ ValidatorUtils.validate(minRule, 16, {}); // false
 Register custom validation functions:
 
 ```typescript
-import ValidatorUtils from '@dymik-form/dymik-core/utils/validator';
+import ValidatorUtils from '@dymik-form/dymik-vue/utils/validator';
 
 // Register a custom validator
 ValidatorUtils.customValidators['isEven'] = (value: any, formValue: any) => {
@@ -116,8 +116,8 @@ Custom validators receive two parameters:
 You can add your own validator library implementation:
 
 ```typescript
-import ValidatorUtils from '@dymik-form/dymik-core/utils/validator';
-import type { IValidatorLib, ValidationRule } from '@dymik-form/dymik-core/interfaces';
+import ValidatorUtils from '@dymik-form/dymik-vue/utils/validator';
+import type { IValidatorLib, ValidationRule } from '@dymik-form/dymik-vue/interfaces';
 
 class MyCustomValidatorLib implements IValidatorLib {
   validate(rule: ValidationRule, value: any): boolean {

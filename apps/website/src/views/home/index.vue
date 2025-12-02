@@ -4,7 +4,7 @@
         <header class="header">
             <img src="/public/logo.png" alt="Dymik Logo" class="logo" />
             <nav class="nav" :class="{ 'nav-open': isMenuOpen }">
-                <a href="https://github.com/dymik-form/dymik-vue" target="_blank" class="nav-link">
+                <a href="https://github.com/dymik-form/dymik" target="_blank" class="nav-link">
                     <i class="pi pi-github"></i>
                 </a>
                 <a href="/preview" class="nav-link">Preview</a>

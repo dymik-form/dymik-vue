@@ -13,7 +13,7 @@ import { useRoute } from 'vue-router';
 import { useToast } from 'primevue/usetoast';
 import { ProgressSpinner } from 'primevue';
 import Toast from 'primevue/toast';
-import { FormModel, type FormItem } from 'dymik-core';
+import { FormModel, type FormItem } from '@dymik-form/dymik-vue';
 
 const route = useRoute();
 const formId = ref<string | null>(null);

@@ -20,9 +20,9 @@ Dymik Core is a powerful library designed to support building web applications w
 - pnpm (recommended)
 
 ### Installation
-1. Add `dymik-core` to your project:
+1. Add `@dymik-form/dymik-vue` to your project:
    ```bash
-   pnpm add dymik-core
+   pnpm add @dymik-form/dymik-vue
    ```
 
 2. Ensure that TypeScript is configured in your project.
@@ -37,8 +37,8 @@ To use `DymikForm` in your Vue.js project, follow these steps:
 ```typescript
 import { createApp } from 'vue';
 import App from './App.vue';
-import DymikForm from 'dymik-core';
-import 'dymik-core/dist/dymik-core.css';
+import DymikForm from '@dymik-form/dymik-vue';
+import '@dymik-form/dymik-vue/dist/dymik-core.css';
 
 const app = createApp(App);
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `FormModel` in `dymik-core` is a TypeScript class that represents the structure of a form. It is used to define and manage form data in a type-safe manner.
+The `FormModel` in `@dymik-form/dymik-vue` is a TypeScript class that represents the structure of a form. It is used to define and manage form data in a type-safe manner.
 
 ### Example
 

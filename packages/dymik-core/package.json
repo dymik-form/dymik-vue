@@ -1,6 +1,26 @@
 {
-  "name": "dymik-core",
+  "name": "@dymik-form/dymik-vue",
   "version": "1.0.0",
+  "description": "A dynamic form library for Vue 3 with built-in validation support (Zod, ArkType)",
+  "keywords": [
+    "vue",
+    "vue3",
+    "form",
+    "dynamic-form",
+    "validation",
+    "zod",
+    "arktype"
+  ],
+  "author": "dymik-form",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dymik-form/dymik-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dymik-form/dymik-vue/issues"
+  },
+  "homepage": "https://github.com/dymik-form/dymik-vue#readme",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "files": [

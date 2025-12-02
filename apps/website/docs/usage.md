@@ -9,8 +9,8 @@ To use `DymikForm` in your Vue.js project, follow these steps:
 ```typescript
 import { createApp } from "vue";
 import App from "./App.vue";
-import DymikForm from "dymik-core";
-import "dymik-core/dist/dymik-core.css";
+import DymikForm from "@dymik-form/dymik-vue";
+import "@dymik-form/dymik-vue/dist/dymik-core.css";
 
 import InputText from "primevue/inputtext";
 import Button from "primevue/button";
@@ -85,7 +85,7 @@ app.mount("#app");
 <script setup lang="ts">
 import { ref } from 'vue';
 import metadata from './meta-data.json';
-import { FormModel, type FormField } from 'dymik-core';
+import { FormModel, type FormField } from '@dymik-form/dymik-vue';
 
 const formModel = ref(new FormModel({
     name: metadata.name,

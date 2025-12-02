@@ -1,6 +1,6 @@
 # Dymik Form
 
-Dymik Form is a Vue 3-based project designed to provide a robust and flexible form management system. It is part of the `dymik-core` package and includes a demo application to showcase its features.
+Dymik Form is a Vue 3-based project designed to provide a robust and flexible form management system. It is part of the `@dymik-form/dymik-vue` package and includes a demo application to showcase its features.
 
 ## Features
 
@@ -56,7 +56,7 @@ packages/
 
 ### Core Library
 
-The `dymik-core` package contains the main `DymikForm` component and related utilities. To make changes:
+The `@dymik-form/dymik-vue` package contains the main `DymikForm` component and related utilities. To make changes:
 
 1. Navigate to the `dymik-core` directory:
    ```bash
@@ -70,7 +70,7 @@ The `dymik-core` package contains the main `DymikForm` component and related uti
 
 ### Main Application
 
-The main application is located in `apps/website`. It is built with PrimeVue UI, Directus, and the `dymik-core` library.
+The main application is located in `apps/website`. It is built with PrimeVue UI, Directus, and the `@dymik-form/dymik-vue` library.
 
 ## Contributing
 
@@ -95,5 +95,5 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## 💖 Support us
 
-If you find this project helpful, please consider supporting us via [Open Collective](https://opencollective.com/dymik-vue).  
+If you find this project helpful, please consider supporting us via [Open Collective](https://opencollective.com/@dymik-form/dymik-vue).  
 Your contributions help us maintain and develop the library further.

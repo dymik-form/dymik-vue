@@ -1,4 +1,4 @@
-import type { FormItem } from 'dymik-core';
+import type { FormItem } from '@dymik-form/dymik-vue';
 import DirectusService from "@/services/directus.service";
 
 export default class FormMetadataService {

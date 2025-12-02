@@ -2,7 +2,7 @@
 
 ## DymikForm
 
-The `DymikForm` component is a reusable form component provided by `dymik-core`. It is designed to simplify form creation and validation in Vue.js applications.
+The `DymikForm` component is a reusable form component provided by `@dymik-form/dymik-vue`. It is designed to simplify form creation and validation in Vue.js applications.
 
 ### Example
 
@@ -12,6 +12,6 @@ The `DymikForm` component is a reusable form component provided by `dymik-core`.
 </template>
 
 <script setup>
-import { DymikForm } from 'dymik-core';
+import { DymikForm } from '@dymik-form/dymik-vue';
 </script>
 ```

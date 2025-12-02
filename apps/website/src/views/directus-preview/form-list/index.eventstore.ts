@@ -1,6 +1,6 @@
 import FormController from "@/controllers/form.controller";
-import type { FormListItem } from 'dymik-core';
-import { FormModel } from 'dymik-core';
+import type { FormListItem } from '@dymik-form/dymik-vue';
+import { FormModel } from '@dymik-form/dymik-vue';
 import { currentForm } from "@/views/directus-preview/form-content/index.viewmodel";
 import { forms } from "@/views/directus-preview/form-list/index.viewmodel";
 

@@ -1,5 +1,5 @@
 import FormController from "@/controllers/form.controller";
-import { FormModel, ValidatorUtils } from 'dymik-core';
+import { FormModel, ValidatorUtils } from '@dymik-form/dymik-vue';
 
 import { currentForm } from "@/views/directus-preview/form-content/index.viewmodel";
 

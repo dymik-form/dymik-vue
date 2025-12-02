@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
 
 settings:
   autoInstallPeers: true
@@ -29,15 +29,15 @@ importers:
       '@directus/sdk':
         specifier: ^10.0.0
         version: 10.3.5
+      '@dymik-form/dymik-vue':
+        specifier: workspace:^
+        version: link:../../packages/dymik-core
       '@primeuix/themes':
         specifier: ^1.0.1
         version: 1.0.3
       '@standard-schema/spec':
         specifier: ^1.0.0
         version: 1.0.0
-      dymik-core:
-        specifier: workspace:^
-        version: link:../../packages/dymik-core
       primeicons:
         specifier: ^7.0.0
         version: 7.0.0

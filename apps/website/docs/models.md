@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `FormModel` in `dymik-core` is a TypeScript class that provides a complete solution for managing form state, validation, and submission. It implements the `FormItem` interface and offers methods for field-level and form-level validation, data management, and error handling.
+The `FormModel` in `@dymik-form/dymik-vue` is a TypeScript class that represents the structure of a form. It is used to define and manage form data in a type-safe manner.
 
 ## Constructor
 

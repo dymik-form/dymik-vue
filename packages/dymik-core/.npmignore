@@ -1,0 +1,27 @@
+# Source files
+src/
+tsconfig.json
+vite.config.ts
+
+# Development files
+.turbo/
+node_modules/
+*.log
+
+# Testing
+*.test.ts
+*.spec.ts
+__tests__/
+
+# Build config
+vitest.config.ts
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

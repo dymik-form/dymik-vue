@@ -2,7 +2,7 @@
 
 ## Overview
 
-`dymik-core` provides several TypeScript interfaces to ensure type safety and improve developer experience. These interfaces define the structure of forms, fields, and validation rules used throughout the library.
+`@dymik-form/dymik-vue` provides several TypeScript interfaces to ensure type safety and improve developer experience. These interfaces define the structure of forms, fields, and validation rules used throughout the library.
 
 ## Core Interfaces
 
@@ -216,7 +216,7 @@ This interface allows you to create custom validator implementations that work w
 **Example Implementation:**
 
 ```typescript
-import type { IValidatorLib, ValidationRule } from '@dymik-form/dymik-core/interfaces';
+import type { IValidatorLib, ValidationRule } from '@dymik-form/dymik-vue/interfaces';
 
 class MyValidatorLib implements IValidatorLib {
   schemas = {};
@@ -239,7 +239,7 @@ class MyValidatorLib implements IValidatorLib {
 Here's a complete example combining multiple interfaces:
 
 ```typescript
-import type { FormItem, FormField, ValidationRule } from '@dymik-form/dymik-core/interfaces';
+import type { FormItem, FormField, ValidationRule } from '@dymik-form/dymik-vue/interfaces';
 
 const registrationForm: FormItem = {
   id: 'registration',

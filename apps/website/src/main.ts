@@ -21,7 +21,7 @@ import './style.scss'
 import './styles/dymik.scss';
 
 import DymikForm from '@dymik-form/dymik-vue';
-import '@dymik-form/dymik-vue/dist/dymik-core.css';
+import '@dymik-form/dymik-vue/dist/dymik-vue.css';
 
 import router from './router';
 import { isVueComponent } from './utils/isVueComponent';

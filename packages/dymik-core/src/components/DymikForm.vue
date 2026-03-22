@@ -34,7 +34,7 @@ function onValueChanged(fieldName: string, value: any) {
 }
 
 async function onFieldClick(field: FormField, event: Event) {
-    if (field.type === 'Button' && field.props.type === 'submit') {
+    if (field.props?.type === 'submit') {
         const isValid = props.form.validate();
 
         if (!isValid) {

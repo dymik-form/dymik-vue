@@ -82,16 +82,17 @@
 </template>
 
 <script lang="ts" setup>
-import { RouterLink } from 'vue-router';
+import { RouterLink, useRouter } from 'vue-router';
 import { ref } from 'vue';
 
+const router = useRouter();
 const isMenuOpen = ref(false);
 const toggleMenu = () => {
     isMenuOpen.value = !isMenuOpen.value;
 };
 
 const navigateToDocs = () => {
-    window.location.href = '/docs/index.html';
+    router.push('/docs');
 };
 </script>
 

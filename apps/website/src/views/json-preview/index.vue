@@ -26,8 +26,11 @@
 <script lang="ts" setup>
 import { ref } from 'vue';
 import Menu from 'primevue/menu';
+import { useRouter } from 'vue-router';
 import { onMounted } from 'vue';
 // import simple from './simple/simple.vue';
+
+const router = useRouter();
 
 const menuItems = ref([
     {
@@ -47,7 +50,7 @@ const menuItems = ref([
 ]);
 
 const navigateToDocs = () => {
-    window.location.href = '/docs/index.html';
+    router.push('/docs');
 };
 
 onMounted(() => {

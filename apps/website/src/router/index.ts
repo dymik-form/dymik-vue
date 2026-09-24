@@ -1,7 +1,27 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHistory, type RouteLocationNormalized } from 'vue-router';
 import DirectusPreview from '@/views/directus-preview/index.vue';
 import Home from '@/views/home/index.vue';
 import JsonPreviewForm from '@/views/json-preview/json-preview-form.vue';
+
+// Old VitePress URLs such as /docs/index.html or /docs/install.html
+const legacyDocSlugs: Record<string, string> = {
+  index: '',
+  install: 'installation',
+  usage: 'quick-start',
+  components: 'dymik-form',
+  interfaces: 'form-schema',
+  models: 'form-model',
+  validations: 'validation',
+};
+
+function redirectLegacyDocsUrl(to: RouteLocationNormalized) {
+  const slug = to.params.slug as string | undefined;
+
+  if (slug?.endsWith('.html')) {
+    const page = slug.slice(0, -'.html'.length);
+    return { path: `/docs/${legacyDocSlugs[page] ?? page}`, hash: to.hash };
+  }
+}
 
 const routes = [
   {
@@ -13,6 +33,12 @@ const routes = [
     path: '/directus-preview',
     name: 'DirectusPreview',
     component: DirectusPreview
+  },
+  {
+    path: '/docs/:slug?',
+    name: 'Docs',
+    component: () => import('@/views/docs/index.vue'),
+    beforeEnter: redirectLegacyDocsUrl
   },
   {
     path: '/preview',

@@ -8,7 +8,7 @@ AI assistant guidelines for the `dymik-vue` monorepo. Read this before making an
 
 **dymik-vue** is a monorepo containing:
 - `packages/dymik-core` — Publishable Vue 3 library (`@dymik-form/dymik-vue`) for rendering dynamic, JSON-driven forms with pluggable validation
-- `apps/website` — Demo application and VitePress documentation site
+- `apps/website` — Demo application and documentation (docs are a `/docs` route in the same Vite SPA)
 
 **Package manager**: pnpm@8.6.0
 **Monorepo orchestration**: Turborepo
@@ -30,16 +30,15 @@ dymik-vue/
 │           │   └── validator/ # ValidatorUtils + ZodValidatorLib + ArktypeValidatorLib
 │           └── index.ts      # Library barrel export
 ├── apps/
-│   └── website/             # Demo app + VitePress docs
+│   └── website/             # Demo app + docs route
 │       └── src/
 │           ├── controllers/  # FormController (loads and manages form state)
 │           ├── services/     # DirectusService, FormMetadataService
-│           ├── views/        # Vue pages (Home, JSON Preview, Directus Preview)
+│           ├── views/        # Vue pages (Home, JSON Preview, Directus Preview, Docs)
 │           ├── router/       # Vue Router routes
 │           ├── models/       # Global app state
 │           ├── utils/        # isVueComponent helper
 │           └── main.ts       # App entry point
-│       └── docs/            # VitePress documentation source
 ├── turbo.json               # Turborepo task config
 ├── vitest.config.ts         # Root vitest config (node environment)
 ├── vercel.json              # Vercel deployment config
@@ -63,13 +62,10 @@ pnpm test:ui      # Run tests with Vitest UI
 Build a specific package:
 ```bash
 cd packages/dymik-core && pnpm build   # Outputs to dist/ (ESM + UMD + .d.ts)
-cd apps/website && pnpm build          # Builds SPA + VitePress docs
+cd apps/website && pnpm build          # Type-checks and builds the SPA (docs included)
 ```
 
-The website build script performs three steps in sequence:
-1. `vue-tsc -b` (type-check)
-2. `vite build` (SPA)
-3. `vitepress build docs && cp -r docs/.vitepress/dist dist/docs` (docs)
+The website build script runs `vue-tsc -b` (type-check) then `vite build` (SPA). There is no separate docs build.
 
 ---
 
@@ -138,6 +134,11 @@ Uses **PrimeVue 4** for UI components (InputText, Button, etc.). Field `type` in
 | `/` | `Home/index.vue` | Landing / marketing page |
 | `/preview` | `JSONPreview/index.vue` | Demo forms defined in JSON |
 | `/directus-preview` | `DirectusPreview/index.vue` | Forms loaded from Directus CMS |
+| `/docs/:slug?` | `docs/index.vue` | Documentation |
+
+### Documentation
+
+Docs are Markdown files in `apps/website/src/views/docs/content/<slug>.md`, loaded with `import.meta.glob(..., { query: '?raw' })` and rendered by `markdown-it` + `highlight.js` (`src/views/docs/markdown.ts`). Sidebar order and titles live in `src/views/docs/pages.ts`. To add a page, create the `.md` file and add its slug to `docSections`. Link between pages with absolute paths (`/docs/validation#custom-validators`); heading ids are the lowercased heading text with punctuation removed and spaces turned into `-`. Old VitePress URLs (`/docs/*.html`) redirect in `src/router/index.ts`.
 
 ---
 
@@ -219,7 +220,7 @@ When adding new validation rule types to `IValidatorLib`, add corresponding test
 2. Implement in `ZodValidatorLib`
 3. Implement in `ArktypeValidatorLib`
 4. Add tests in `index.test.ts`
-5. Document in `apps/website/docs/validations.md`
+5. Document in `apps/website/src/views/docs/content/validation.md`
 
 **New form field component (in website):**
 1. Register component globally in `apps/website/src/main.ts`

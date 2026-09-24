@@ -10,7 +10,7 @@
         "required": null,
         "required_text": "This field is required",
         "props": {
-          "src": "https://directus.dangkhoaicao.com/assets/19ad1b63-277b-4d81-aa7a-fe8863134a12",
+          "src": "/logo.png",
           "style": "width: 80px; height: 80px; align-self: center"
         },
         "validation_rules": [],

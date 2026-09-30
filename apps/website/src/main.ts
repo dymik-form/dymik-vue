@@ -1,7 +1,6 @@
 import { createApp } from 'vue'
 
 import App from './App.vue';
-import DirectusService from './services/directus.service';
 import PrimeVue from 'primevue/config';
 
 import * as PrimeVueComponents from 'primevue';
@@ -26,7 +25,6 @@ import '@dymik-form/dymik-vue/dist/dymik-vue.css';
 import router from './router';
 import { isVueComponent } from './utils/isVueComponent';
 
-DirectusService.init(import.meta.env.VITE_DIRECTUS_URL, import.meta.env.VITE_DIRECTUS_STATIC_TOKEN);
 
 const app = createApp(App);
 

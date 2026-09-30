@@ -23,7 +23,7 @@
 }
 ```
 
-Because a form is just JSON, you can keep form definitions in a database or a headless CMS such as Directus, and change them without redeploying your app.
+Because a form is just JSON, you can keep form definitions in a database or a headless CMS, and change them without redeploying your app.
 
 ## Why Dymik Form
 

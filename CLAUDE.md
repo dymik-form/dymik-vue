@@ -33,8 +33,7 @@ dymik-vue/
 │   └── website/             # Demo app + docs route
 │       └── src/
 │           ├── controllers/  # FormController (loads and manages form state)
-│           ├── services/     # DirectusService, FormMetadataService
-│           ├── views/        # Vue pages (Home, JSON Preview, Directus Preview, Docs)
+│           ├── views/        # Vue pages (Home, JSON Preview, Docs)
 │           ├── router/       # Vue Router routes
 │           ├── models/       # Global app state
 │           ├── utils/        # isVueComponent helper
@@ -133,7 +132,6 @@ Uses **PrimeVue 4** for UI components (InputText, Button, etc.). Field `type` in
 |---|---|---|
 | `/` | `Home/index.vue` | Landing / marketing page |
 | `/preview` | `JSONPreview/index.vue` | Demo forms defined in JSON |
-| `/directus-preview` | `DirectusPreview/index.vue` | Forms loaded from Directus CMS |
 | `/docs/:slug?` | `docs/index.vue` | Documentation |
 
 ### Documentation

@@ -13,7 +13,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@directus/sdk": "^10.0.0",
     "@dymik-form/dymik-vue": "workspace:^",
     "@primeuix/themes": "^1.0.1",
     "@standard-schema/spec": "^1.0.0",

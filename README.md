@@ -6,7 +6,6 @@ Dymik Form is a Vue 3-based project designed to provide a robust and flexible fo
 
 - **Dynamic Form Rendering**: Easily create and manage forms dynamically.
 - **Validation Utilities**: Built-in validation using libraries like `arktype` and `zod`.
-- **Directus Integration**: Seamless integration with Directus for schema management.
 - **Modular Design**: Organized into reusable components, services, and models.
 
 ## Project Structure
@@ -70,7 +69,7 @@ The `@dymik-form/dymik-vue` package contains the main `DymikForm` component and 
 
 ### Main Application
 
-The main application is located in `apps/website`. It is built with PrimeVue UI, Directus, and the `@dymik-form/dymik-vue` library.
+The main application is located in `apps/website`. It is built with PrimeVue UI and the `@dymik-form/dymik-vue` library.
 
 ## Contributing
 
@@ -88,7 +87,6 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 ## Acknowledgments
 
 - [Vue.js](https://vuejs.org/)
-- [Directus](https://directus.io/)
 - [Zod](https://zod.dev/)
 - [ArkType](https://arktype.io/)
 - [PrimeVue](https://primevue.org/)

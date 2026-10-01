@@ -345,7 +345,6 @@
 <script lang="ts" setup>
 import { ref } from 'vue';
 import { FormModel } from '@dymik-form/dymik-vue';
-import type { FormField } from '@dymik-form/dymik-vue';
 
 // Interactive state for playground
 const activeTab = ref<'reg' | 'checkout' | 'survey'>('reg');

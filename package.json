@@ -12,7 +12,9 @@
   },
   "devDependencies": {
     "@vitest/ui": "^0.34.0",
+    "autoprefixer": "^10.6.1",
     "husky": "^8.0.0",
+    "postcss": "^8.5.28",
     "turbo": "^2.5.0",
     "typescript": "~5.7.2",
     "vitest": "^0.34.0"

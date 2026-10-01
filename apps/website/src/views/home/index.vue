@@ -1,6 +1,6 @@
 <template>
 <div class="landing-page">
-<header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-[1440px] mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="Dymik Form Brand Logo" class="h-10 w-auto object-contain" src="/logo.png"/></a><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-surface-container-high"><span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span><span class="font-label-code text-label-code text-on-surface-variant">v1.0.0</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container text-on-surface font-semibold rounded-lg"><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="#features">Features</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="/docs">Documentation</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="/preview">Schema Builder</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="/docs">Examples</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="https://github.com/dymik-form/dymik" target="_blank">GitHub</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="https://www.npmjs.com/package/@dymik-form/dymik-vue" target="_blank">NPM</a></nav><div class="flex items-center gap-space-sm shrink-0"><a class="hidden sm:inline-flex items-center px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low font-body-sm text-body-sm transition-colors" href="/preview">Preview</a><a class="inline-flex items-center justify-center px-space-md py-1.5 rounded-lg bg-primary-container text-on-primary font-body-sm text-body-sm font-semibold shadow-[0_0_20px_rgba(16,185,129,0.35)] hover:bg-primary transition-all" href="/docs">Get Started</a></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-4rem)]"><div class="flex flex-col w-full relative overflow-hidden">
+<header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-[1440px] mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="Dymik Form Brand Logo" class="h-10 w-auto object-contain" src="/logo.png"/></a><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-surface-container-high"><span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span><span class="font-label-code text-label-code text-on-surface-variant">v1.0.0</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container text-on-surface font-semibold rounded-lg"><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="#features">Features</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="/docs">Documentation</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="https://github.com/dymik-form/dymik" target="_blank">GitHub</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="https://www.npmjs.com/package/@dymik-form/dymik-vue" target="_blank">NPM</a></nav><div class="flex items-center gap-space-sm shrink-0"><a class="hidden sm:inline-flex items-center px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low font-body-sm text-body-sm transition-colors" href="/preview">Preview</a><a class="inline-flex items-center justify-center px-space-md py-1.5 rounded-lg bg-primary-container text-on-primary font-body-sm text-body-sm font-semibold shadow-[0_0_20px_rgba(16,185,129,0.35)] hover:bg-primary transition-all" href="/docs">Get Started</a></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-4rem)]"><div class="flex flex-col w-full relative overflow-hidden">
 <!-- Subtle ambient background glow circles -->
 <div class="absolute top-10 left-1/2 -translate-x-1/2 w-[900px] h-[520px] bg-gradient-to-tr from-emerald-glow/15 via-secondary-container/20 to-transparent blur-3xl pointer-events-none rounded-full -z-10"></div>
 <div class="absolute top-[800px] right-0 w-[450px] h-[450px] bg-primary-fixed/20 blur-3xl pointer-events-none rounded-full -z-10"></div>
@@ -301,14 +301,9 @@
 <div class="font-headline-sm text-headline-sm text-on-surface" id="playground-form-title">{{ playgroundSchemas[activeTab].title }}</div>
 <p class="font-body-sm text-body-sm text-on-surface-variant" id="playground-form-desc">{{ playgroundSchemas[activeTab].desc }}</p>
 </div>
-<div class="space-y-space-md" id="playground-fields-container" v-html="playgroundSchemas[activeTab].html">
+<div class="space-y-space-md" id="playground-fields-container">
+<DymikForm :form="playgroundSchemas[activeTab].formModel" />
 </div>
-</div>
-<div class="pt-space-lg mt-space-md">
-<button class="w-full py-3 rounded-xl bg-primary-container text-on-primary font-headline-sm text-body-md font-semibold hover:bg-primary transition-all shadow-md flex items-center justify-center gap-2">
-<span class="material-symbols-outlined text-[18px]">send</span>
-<span>Test Submit Validation</span>
-</button>
 </div>
 </div>
 </div>
@@ -349,10 +344,12 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue';
+import { FormModel } from '@dymik-form/dymik-vue';
+import type { FormField } from '@dymik-form/dymik-vue';
 
 // Interactive state for playground
 const activeTab = ref<'reg' | 'checkout' | 'survey'>('reg');
-const npmInstallText = ref('npm install dymik-form');
+const npmInstallText = ref('npm install @dymik-form/dymik-vue');
 const copyIconText = ref('content_copy');
 
 const switchTab = (type: 'reg' | 'checkout' | 'survey') => {
@@ -382,50 +379,67 @@ const handleTierChange = () => {
     }
 };
 
-const playgroundSchemas = {
+const playgroundSchemas = ref<any>({
     reg: {
     code: `{
   "title": "Developer Account",
   "fields": [
     {
       "name": "email",
-      "type": "email",
-      "label": "Work Email",
-      "rules": ["required", "email"]
+      "type": "InputText",
+      "label": "Work Email"
     },
     {
       "name": "role",
-      "type": "select",
-      "label": "Primary Role",
-      "options": ["Frontend Lead", "Fullstack", "Architect"]
+      "type": "Select",
+      "label": "Primary Role"
     },
     {
-      "name": "terms",
-      "type": "checkbox",
-      "label": "Agree to open-source guidelines"
+      "name": "btnSubmit",
+      "type": "Button"
     }
   ]
 }`,
     title: 'Developer Account',
     desc: 'Fill in details to provision an environment.',
-    html: `
-        <div>
-        <label class="block font-body-sm text-body-sm font-semibold text-on-surface mb-1">Work Email</label>
-        <input type="email" placeholder="dev@company.com" class="w-full px-space-md py-2.5 rounded-lg bg-surface-canvas text-on-surface font-body-md outline-none focus:ring-2 focus:ring-primary-container">
-        </div>
-        <div>
-        <label class="block font-body-sm text-body-sm font-semibold text-on-surface mb-1">Primary Role</label>
-        <select class="w-full px-space-md py-2.5 rounded-lg bg-surface-canvas text-on-surface font-body-md outline-none focus:ring-2 focus:ring-primary-container">
-            <option>Frontend Lead</option>
-            <option>Fullstack Engineer</option>
-            <option>Solutions Architect</option>
-        </select>
-        </div>
-        <div class="flex items-center gap-space-sm pt-space-xs">
-        <input type="checkbox" id="sub-check" class="w-4 h-4 rounded text-primary-container cursor-pointer">
-        <label for="sub-check" class="font-body-sm text-body-sm text-on-surface cursor-pointer select-none">Agree to open-source guidelines</label>
-        </div>
-    `
+    formModel: new FormModel({
+        name: 'regForm',
+        fields: [
+            {
+                name: 'email',
+                type: 'InputText',
+                label: 'Work Email',
+                required: true,
+                props: { placeholder: 'dev@company.com' },
+                classes: 'full_width',
+                validation_rules: [
+                    { type: 'email', message: 'Invalid Email' }
+                ]
+            },
+            {
+                name: 'role',
+                type: 'Select',
+                label: 'Primary Role',
+                required: true,
+                props: {
+                    options: ['Frontend Lead', 'Fullstack Engineer', 'Solutions Architect'],
+                    placeholder: 'Select a role'
+                },
+                classes: 'full_width'
+            },
+            {
+                name: 'btnSubmit',
+                type: 'Button',
+                props: {
+                    type: 'submit',
+                    label: 'Test Submit Validation',
+                    icon: 'pi pi-send',
+                    severity: 'primary'
+                },
+                classes: 'full_width'
+            }
+        ]
+    })
     },
     checkout: {
     code: `{
@@ -433,32 +447,67 @@ const playgroundSchemas = {
   "fields": [
     {
       "name": "cardNumber",
-      "type": "text",
-      "label": "Card Details",
-      "mask": "#### #### #### ####"
+      "type": "InputText",
+      "label": "Card Number"
     },
     {
-      "name": "promoCode",
-      "type": "text",
-      "label": "Voucher / Promo Code"
+      "name": "expiry",
+      "type": "InputText",
+      "label": "Expiration Date"
+    },
+    {
+      "name": "cvv",
+      "type": "InputText",
+      "label": "Security Code"
+    },
+    {
+      "name": "btnSubmit",
+      "type": "Button"
     }
   ]
 }`,
     title: 'Checkout Express',
-    desc: 'Instant checkout with client-side Luhn algorithm checks.',
-    html: `
-        <div>
-        <label class="block font-body-sm text-body-sm font-semibold text-on-surface mb-1">Card Details</label>
-        <div class="relative">
-            <input type="text" placeholder="4242 •••• •••• 4242" class="w-full px-space-md py-2.5 rounded-lg bg-surface-canvas text-on-surface font-body-md outline-none focus:ring-2 focus:ring-primary-container">
-            <span class="material-symbols-outlined absolute right-3 top-2.5 text-on-surface-variant">credit_card</span>
-        </div>
-        </div>
-        <div>
-        <label class="block font-body-sm text-body-sm font-semibold text-on-surface mb-1">Voucher / Promo Code</label>
-        <input type="text" placeholder="SUMMER-VUE-2025" class="w-full px-space-md py-2.5 rounded-lg bg-surface-canvas text-on-surface font-body-md outline-none focus:ring-2 focus:ring-primary-container">
-        </div>
-    `
+    desc: 'Secure payment details with automatic formatting.',
+    formModel: new FormModel({
+        name: 'checkoutForm',
+        fields: [
+            {
+                name: 'cardNumber',
+                type: 'InputText',
+                label: 'Card Number',
+                required: true,
+                props: { placeholder: '0000 0000 0000 0000' },
+                classes: 'full_width'
+            },
+            {
+                name: 'expiry',
+                type: 'InputText',
+                label: 'Expiration Date',
+                required: true,
+                props: { placeholder: 'MM/YY' },
+                classes: 'half_width'
+            },
+            {
+                name: 'cvv',
+                type: 'InputText',
+                label: 'Security Code',
+                required: true,
+                props: { type: 'password', placeholder: '***' },
+                classes: 'half_width'
+            },
+            {
+                name: 'btnSubmit',
+                type: 'Button',
+                props: {
+                    type: 'submit',
+                    label: 'Test Submit Validation',
+                    icon: 'pi pi-send',
+                    severity: 'primary'
+                },
+                classes: 'full_width'
+            }
+        ]
+    })
     },
     survey: {
     code: `{
@@ -466,37 +515,58 @@ const playgroundSchemas = {
   "fields": [
     {
       "name": "satisfaction",
-      "type": "rating",
-      "label": "Vue DX Rating",
-      "max": 5
+      "type": "Select",
+      "label": "How satisfied are you?"
     },
     {
       "name": "feedback",
-      "type": "textarea",
-      "label": "Suggestions"
+      "type": "Textarea",
+      "label": "Additional Feedback"
+    },
+    {
+      "name": "btnSubmit",
+      "type": "Button"
     }
   ]
 }`,
     title: 'Team Survey',
     desc: 'Gather internal feedback with reactive rating components.',
-    html: `
-        <div>
-        <label class="block font-body-sm text-body-sm font-semibold text-on-surface mb-1">Vue DX Rating</label>
-        <div class="flex gap-2 text-primary-container py-1">
-            <span class="material-symbols-outlined cursor-pointer" style="font-variation-settings: 'FILL' 1;">star</span>
-            <span class="material-symbols-outlined cursor-pointer" style="font-variation-settings: 'FILL' 1;">star</span>
-            <span class="material-symbols-outlined cursor-pointer" style="font-variation-settings: 'FILL' 1;">star</span>
-            <span class="material-symbols-outlined cursor-pointer" style="font-variation-settings: 'FILL' 1;">star</span>
-            <span class="material-symbols-outlined cursor-pointer" style="font-variation-settings: 'FILL' 1;">star_half</span>
-        </div>
-        </div>
-        <div>
-        <label class="block font-body-sm text-body-sm font-semibold text-on-surface mb-1">Suggestions</label>
-        <textarea rows="3" placeholder="What features should we add next?" class="w-full px-space-md py-2 rounded-lg bg-surface-canvas text-on-surface font-body-md outline-none focus:ring-2 focus:ring-primary-container resize-none"></textarea>
-        </div>
-    `
+    formModel: new FormModel({
+        name: 'surveyForm',
+        fields: [
+            {
+                name: 'satisfaction',
+                type: 'Select',
+                label: 'How satisfied are you?',
+                required: true,
+                props: {
+                    options: ['1 - Poor', '2 - Fair', '3 - Good', '4 - Very Good', '5 - Excellent'],
+                    placeholder: 'Select rating'
+                },
+                classes: 'full_width'
+            },
+            {
+                name: 'feedback',
+                type: 'Textarea',
+                label: 'Additional Feedback',
+                props: { rows: 3, placeholder: 'What features should we add next?' },
+                classes: 'full_width'
+            },
+            {
+                name: 'btnSubmit',
+                type: 'Button',
+                props: {
+                    type: 'submit',
+                    label: 'Test Submit Validation',
+                    icon: 'pi pi-send',
+                    severity: 'primary'
+                },
+                classes: 'full_width'
+            }
+        ]
+    })
     }
-};
+});
 
 </script>
 

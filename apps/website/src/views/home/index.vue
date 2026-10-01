@@ -1,6 +1,6 @@
 <template>
 <div class="landing-page">
-<header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-[1440px] mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="Dymik Form Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1W5p2NuxKpJvCRFIfm6KjsscHUYYvyPCGCcX6xCPvsirNVir6Wr90ohUPd1S5cSTRGYOw44iTLRltNAStKOVP2svJqr-jSf3l9MIW6AR8ecVXOeQy9rOEAGJhht0WEk46flY1cooToR0-Ks3U9m-Lf6SS2J0KPbtK4Gm1e1PK81gbbibSkfzGfEQXXjtn6q7CNmoibXdUp8BrVMYXZDh65no1tqf4qSkIPlrEO-NDZKk0a7L0MZPZsbAA"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Dymik<span class="text-primary-container font-headline-sm">Form</span></span></a><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-surface-container-high"><span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span><span class="font-label-code text-label-code text-on-surface-variant">v1.2.0</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container text-on-surface font-semibold rounded-lg"><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" data-path="features" href="#">Features</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" data-path="documentation" href="#">Documentation</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" data-path="schema-builder" href="#">Schema Builder</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" data-path="examples" href="#">Examples</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" data-path="github" href="#">GitHub</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" data-path="npm" href="#">NPM</a></nav><div class="flex items-center gap-space-sm shrink-0"><button class="hidden lg:flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">search</span><span class="font-body-sm text-body-sm">Quick find</span><kbd class="px-1.5 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant font-label-code text-[11px] shadow-[0_1px_2px_rgba(0,0,0,0.06)]">⌘K</kbd></button><a class="hidden md:flex items-center gap-space-xs px-space-sm py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface transition-colors font-body-sm text-body-sm" data-path="github" href="#"><span class="material-symbols-outlined text-[16px] text-vue-teal">star</span><span class="font-label-code text-label-code font-semibold">3.8k</span></a><a class="hidden sm:inline-flex items-center px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low font-body-sm text-body-sm transition-colors" data-path="schema-builder" href="#">Preview</a><a class="inline-flex items-center justify-center px-space-md py-1.5 rounded-lg bg-primary-container text-on-primary font-body-sm text-body-sm font-semibold shadow-[0_0_20px_rgba(16,185,129,0.35)] hover:bg-primary transition-all" data-path="documentation" href="#">Get Started</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-space-xs shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-4rem)]"><div class="flex flex-col w-full relative overflow-hidden">
+<header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-[1440px] mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="Dymik Form Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1W5p2NuxKpJvCRFIfm6KjsscHUYYvyPCGCcX6xCPvsirNVir6Wr90ohUPd1S5cSTRGYOw44iTLRltNAStKOVP2svJqr-jSf3l9MIW6AR8ecVXOeQy9rOEAGJhht0WEk46flY1cooToR0-Ks3U9m-Lf6SS2J0KPbtK4Gm1e1PK81gbbibSkfzGfEQXXjtn6q7CNmoibXdUp8BrVMYXZDh65no1tqf4qSkIPlrEO-NDZKk0a7L0MZPZsbAA"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Dymik<span class="text-primary-container font-headline-sm">Form</span></span></a><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-surface-container-high"><span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span><span class="font-label-code text-label-code text-on-surface-variant">v1.0.0</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container text-on-surface font-semibold rounded-lg"><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="#features">Features</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="/docs">Documentation</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="/json-preview">Schema Builder</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="/docs">Examples</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="https://github.com/dymik-form/dymik" target="_blank">GitHub</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all font-body-sm text-body-sm" href="https://www.npmjs.com/package/@dymik-form/dymik-vue" target="_blank">NPM</a></nav><div class="flex items-center gap-space-sm shrink-0"><button class="hidden lg:flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">search</span><span class="font-body-sm text-body-sm">Quick find</span><kbd class="px-1.5 py-0.5 rounded bg-surface-container-lowest text-on-surface-variant font-label-code text-[11px] shadow-[0_1px_2px_rgba(0,0,0,0.06)]">⌘K</kbd></button><a class="hidden sm:inline-flex items-center px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low font-body-sm text-body-sm transition-colors" href="/json-preview">Preview</a><a class="inline-flex items-center justify-center px-space-md py-1.5 rounded-lg bg-primary-container text-on-primary font-body-sm text-body-sm font-semibold shadow-[0_0_20px_rgba(16,185,129,0.35)] hover:bg-primary transition-all" href="/docs">Get Started</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-space-xs shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-4rem)]"><div class="flex flex-col w-full relative overflow-hidden">
 <!-- Subtle ambient background glow circles -->
 <div class="absolute top-10 left-1/2 -translate-x-1/2 w-[900px] h-[520px] bg-gradient-to-tr from-emerald-glow/15 via-secondary-container/20 to-transparent blur-3xl pointer-events-none rounded-full -z-10"></div>
 <div class="absolute top-[800px] right-0 w-[450px] h-[450px] bg-primary-fixed/20 blur-3xl pointer-events-none rounded-full -z-10"></div>
@@ -8,9 +8,9 @@
 <!-- HERO SECTION -->
 <section class="w-full max-w-[1240px] mx-auto px-margin pt-space-xl pb-space-lg flex flex-col items-center text-center">
 <!-- Announcement Pill -->
-<a class="group inline-flex items-center gap-space-sm px-space-md py-1.5 rounded-full bg-surface-container-high/80 hover:bg-surface-container-high transition-all shadow-sm mb-space-lg" data-path="changelog" href="#">
+<a class="group inline-flex items-center gap-space-sm px-space-md py-1.5 rounded-full bg-surface-container-high/80 hover:bg-surface-container-high transition-all shadow-sm mb-space-lg" href="https://github.com/dymik-form/dymik/releases" target="_blank">
 <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-primary-container text-on-primary text-[11px] font-bold">✨</span>
-<span class="font-body-sm text-body-sm text-on-surface font-medium">Dymik Form 2.0 released with Vue 3.4 &amp; TypeScript native support</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Dymik Form v1.0.0 released with native Zod &amp; ArkType support</span>
 <span class="material-symbols-outlined text-[16px] text-primary-container group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
 </a>
 <!-- Headline -->
@@ -23,11 +23,11 @@
     </p>
 <!-- CTAs & Install Bar -->
 <div class="flex flex-wrap items-center justify-center gap-space-md mb-space-xl">
-<a class="inline-flex items-center justify-center gap-space-sm px-space-lg py-3 rounded-xl bg-primary-container text-on-primary font-headline-sm text-body-md font-semibold shadow-[0_4px_24px_rgba(16,185,129,0.35)] hover:bg-primary hover:-translate-y-0.5 transition-all" data-path="documentation" href="#">
+<a class="inline-flex items-center justify-center gap-space-sm px-space-lg py-3 rounded-xl bg-primary-container text-on-primary font-headline-sm text-body-md font-semibold shadow-[0_4px_24px_rgba(16,185,129,0.35)] hover:bg-primary hover:-translate-y-0.5 transition-all" href="/docs">
 <span>Get Started Free</span>
 <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
 </a>
-<a class="inline-flex items-center justify-center gap-space-sm px-space-lg py-3 rounded-xl bg-surface-container-lowest text-on-surface font-body-md font-semibold shadow-sm hover:shadow-md hover:bg-surface-container-low transition-all" href="#playground-section">
+<a class="inline-flex items-center justify-center gap-space-sm px-space-lg py-3 rounded-xl bg-surface-container-lowest text-on-surface font-body-md font-semibold shadow-sm hover:shadow-md hover:bg-surface-container-low transition-all" href="#features">
 <span class="material-symbols-outlined text-vue-teal text-[20px]" style="font-variation-settings: 'FILL' 1;">play_circle</span>
 <span>Live Interactive Preview</span>
 </a>
@@ -147,20 +147,20 @@
 <div class="max-w-[1240px] mx-auto px-margin">
 <div class="grid grid-cols-2 md:grid-cols-4 gap-space-md text-center">
 <div class="p-space-md">
-<div class="font-headline-lg text-headline-lg text-primary-container font-extrabold">50K+</div>
-<div class="font-body-sm text-body-sm text-on-surface-variant font-medium mt-1">Monthly NPM Downloads</div>
+<div class="font-headline-lg text-headline-lg text-primary-container font-extrabold">100%</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant font-medium mt-1">Type-Safe Validation</div>
 </div>
 <div class="p-space-md">
-<div class="font-headline-lg text-headline-lg text-on-surface font-extrabold">&lt;11.4 kB</div>
+<div class="font-headline-lg text-headline-lg text-on-surface font-extrabold">&lt;80 kB</div>
 <div class="font-body-sm text-body-sm text-on-surface-variant font-medium mt-1">Gzipped Core Footprint</div>
 </div>
 <div class="p-space-md">
-<div class="font-headline-lg text-headline-lg text-primary-container font-extrabold">99.8%</div>
-<div class="font-body-sm text-body-sm text-on-surface-variant font-medium mt-1">Automated Test Coverage</div>
+<div class="font-headline-lg text-headline-lg text-primary-container font-extrabold">Zod & ArkType</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant font-medium mt-1">Native Support</div>
 </div>
 <div class="p-space-md">
-<div class="font-headline-lg text-headline-lg text-on-surface font-extrabold">0</div>
-<div class="font-body-sm text-body-sm text-on-surface-variant font-medium mt-1">External UI Dependencies</div>
+<div class="font-headline-lg text-headline-lg text-on-surface font-extrabold">100%</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant font-medium mt-1">Vue 3 Compatibility</div>
 </div>
 </div>
 </div>
@@ -241,7 +241,7 @@
 <p class="font-body-md text-body-md text-on-surface-variant">Fine-grained Vue reactivity ensures only dirty fields re-evaluate. 60 FPS typing experience even on massive 200+ field survey layouts.</p>
 </div>
 <div class="pt-space-md mt-space-md flex flex-wrap gap-1.5 font-label-code text-[11px]">
-<span class="px-2 py-0.5 rounded bg-surface-subtle text-on-surface-variant">&lt;12kb gzip</span>
+<span class="px-2 py-0.5 rounded bg-surface-subtle text-on-surface-variant">&lt;80kb gzip</span>
 <span class="px-2 py-0.5 rounded bg-surface-subtle text-on-surface-variant">tree-shakeable</span>
 </div>
 </div>
@@ -262,7 +262,7 @@
 </div>
 </section>
 <!-- INTERACTIVE PLAYGROUND SHOWCASE -->
-<section class="w-full max-w-[1240px] mx-auto px-margin py-space-xl" id="playground-section">
+<section class="w-full max-w-[1240px] mx-auto px-margin py-space-xl" id="features">
 <div class="p-space-lg md:p-space-xl rounded-3xl bg-surface-container-low shadow-lg">
 <div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
 <div>
@@ -288,29 +288,6 @@
 <span class="font-label-code text-[11px] text-emerald-glow">Live Bind</span>
 </div>
 <pre class="font-label-code text-label-code overflow-x-auto text-emerald-glow/90 h-[340px] leading-relaxed select-all" id="playground-code-view">{{ playgroundSchemas[activeTab].code }}</pre><!--
-  "title": "Developer Account",
-  "fields": [
-    {
-      "name": "email",
-      "type": "email",
-      "label": "Work Email",
-      "rules": ["required", "email"],
-      "placeholder": "dev@company.com"
-    },
-    {
-      "name": "role",
-      "type": "select",
-      "label": "Primary Role",
-      "options": ["Frontend Lead", "Fullstack", "Architect"]
-    },
-    {
-      "name": "terms",
-      "type": "checkbox",
-      "label": "Agree to open-source guidelines",
-      "rules": ["accepted"]
-    }
-  ]
-}
 -->
 <div class="pt-2 flex items-center justify-between text-on-surface-variant/70 font-label-code text-[11px]">
 <span>Vue 3 Composition API</span>
@@ -337,54 +314,7 @@
 </div>
 </div>
 </section>
-<!-- DEVELOPER STORIES / TESTIMONIALS -->
-<section class="w-full max-w-[1240px] mx-auto px-margin py-space-xl">
-<div class="text-center max-w-xl mx-auto mb-space-xl">
-<div class="font-label-badge text-label-badge text-primary uppercase tracking-wider font-semibold">Engineered with Passion</div>
-<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Loved by Frontend Teams Worldwide</h2>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
-<!-- Testimonial 1 -->
-<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col justify-between">
-<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-lg">
-          "Dymik Form eliminated over 14,000 lines of template markup in our SaaS dashboard. We now deliver multi-tier onboarding workflows in a fraction of the time."
-        </p>
-<div class="flex items-center gap-space-sm">
-<img class="w-10 h-10 rounded-full object-cover shadow-sm" data-alt="Portrait photo of a female software engineering director in modern office lighting with minimal background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAV5QBmY4kcW8N6RiWjdG3IxvxdyGICdcNnrW9i9GpdksgA7zlnO2ZUOgYgPBx5efxR4JPEbHMZwLaxC2I2hmZlQzQb-NeiCcvaoRgrWiCu22nZOLl0S1zl1oD9ukdClVrE-YeEJbyk6vB3w6fxy2OqrL8uRz7_6qxO-jAQFdDebgnSSnIaeN779JkAuMFv2kPFWOLHX6VM8im-9NjRMuQAvA-JpMJxSOvY3rqYh2jb4fF4SqXkjgwI"/>
-<div>
-<div class="font-body-md text-body-md font-semibold text-on-surface">Elena Rostova</div>
-<div class="font-body-sm text-body-sm text-on-surface-variant">Principal Engineer, CloudScale</div>
-</div>
-</div>
-</div>
-<!-- Testimonial 2 -->
-<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col justify-between">
-<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-lg">
-          "The reactivity performance is mind-blowing. We have complex calculations updating across 50 dynamic fields, and the UI never misses a single frame."
-        </p>
-<div class="flex items-center gap-space-sm">
-<img class="w-10 h-10 rounded-full object-cover shadow-sm" data-alt="Close up photo of a smiling male frontend engineer wearing spectacles against a subtle green architectural background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAR5t6eHJwqlUp8qLl1lohyW0Zo3cCcQekOrPeiN5zSOkP0kSAk0tJaXTXsyC9EKI3VorE4LNm2oqhjRyin6gpier8ccqLgkf6uSo0z4SpGDnjh7dHb2NDajtUNlY5UojCv6bZxHQHuXpPuvzmUfyKCGFWBajGijBJrqB_y01RWKjWZrDw5vD1qnSrKY3qHdl1wvLkBqm9rfcs2PPMNXP7N_xlOG9Zl62PebZRhIkedWifD5Q3SHCVe"/>
-<div>
-<div class="font-body-md text-body-md font-semibold text-on-surface">Marcus Vance</div>
-<div class="font-body-sm text-body-sm text-on-surface-variant">Vue Core Community Advocate</div>
-</div>
-</div>
-</div>
-<!-- Testimonial 3 -->
-<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col justify-between">
-<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-lg">
-          "The schema-first approach completely decoupled our backend teams from UI development. They just hand us JSON API specs, and the forms build themselves."
-        </p>
-<div class="flex items-center gap-space-sm">
-<img class="w-10 h-10 rounded-full object-cover shadow-sm" data-alt="Portrait photo of a tech founder working with dual monitors in an airy modern startup workspace" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApNBZSGDfpSy2S5NvVqEIO2ja7p1SEQUVkFpiO7qZk9yIdz0yztdHN7c1AMZIFl4KIT_yHWPU4B5PIbXkNwhsKRv4rGwGcgfrIGnUCEMSUnsSsgEA8mP_HSTRzWIMqy-fCA5rb5Yqd-qxTn4_HFrCucyvkS4sUodxlJIdJh9qYnEUkAmZI6kUZKpqy7Re9vC8c8K2nYgVVi718q07f0Wu6NVT7SQfaStUoFG0CMKEWlideDkV54cd-"/>
-<div>
-<div class="font-body-md text-body-md font-semibold text-on-surface">Kenji Sato</div>
-<div class="font-body-sm text-body-sm text-on-surface-variant">Co-founder, FlowForm Labs</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+
 <!-- FINAL CALL TO ACTION (CTA) -->
 <section class="w-full max-w-[1240px] mx-auto px-margin pb-space-xl">
 <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-inverse-surface via-code-dark to-inverse-surface p-space-xl md:p-16 text-center text-surface-subtle shadow-2xl">
@@ -401,11 +331,11 @@
           Join thousands of developers building fast, accessible, schema-driven applications today.
         </p>
 <div class="flex flex-wrap items-center justify-center gap-space-md pt-space-md">
-<a class="inline-flex items-center justify-center gap-space-sm px-space-lg py-3 rounded-xl bg-primary-container text-on-primary font-headline-sm text-body-md font-semibold shadow-[0_0_24px_rgba(16,185,129,0.5)] hover:bg-primary transition-all" data-path="documentation" href="#">
+<a class="inline-flex items-center justify-center gap-space-sm px-space-lg py-3 rounded-xl bg-primary-container text-on-primary font-headline-sm text-body-md font-semibold shadow-[0_0_24px_rgba(16,185,129,0.5)] hover:bg-primary transition-all" href="/docs">
 <span>Read the Docs</span>
 <span class="material-symbols-outlined text-[18px]">menu_book</span>
 </a>
-<a class="inline-flex items-center justify-center gap-space-sm px-space-lg py-3 rounded-xl bg-white/10 text-surface-container-lowest font-body-md font-semibold hover:bg-white/20 transition-all" data-path="npm" href="#">
+<a class="inline-flex items-center justify-center gap-space-sm px-space-lg py-3 rounded-xl bg-white/10 text-surface-container-lowest font-body-md font-semibold hover:bg-white/20 transition-all" href="https://www.npmjs.com/package/@dymik-form/dymik-vue" target="_blank">
 <span class="material-symbols-outlined text-[18px]">download</span>
 <span>Install via NPM</span>
 </a>
@@ -413,15 +343,12 @@
 </div>
 </div>
 </section>
-</div></main><footer class="w-full bg-surface-container-low py-space-xl shadow-[0_-1px_8px_rgba(0,0,0,0.02)]"><div class="max-w-[1440px] mx-auto px-margin"><div class="grid grid-cols-2 md:grid-cols-5 gap-space-lg mb-space-xl"><div class="col-span-2 space-y-space-sm"><div class="flex items-center gap-space-sm"><img alt="Dymik Form Brand Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1W5p2NuxKpJvCRFIfm6KjsscHUYYvyPCGCcX6xCPvsirNVir6Wr90ohUPd1S5cSTRGYOw44iTLRltNAStKOVP2svJqr-jSf3l9MIW6AR8ecVXOeQy9rOEAGJhht0WEk46flY1cooToR0-Ks3U9m-Lf6SS2J0KPbtK4Gm1e1PK81gbbibSkfzGfEQXXjtn6q7CNmoibXdUp8BrVMYXZDh65no1tqf4qSkIPlrEO-NDZKk0a7L0MZPZsbAA"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Dymik<span class="text-primary-container font-headline-sm">Form</span></span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">High-performance dynamic schema form engine built specifically for modern Vue.js reactive architectures and frontend developers.</p><div class="flex items-center gap-space-sm pt-space-xs"><span class="px-space-sm py-1 rounded bg-surface-container-high font-label-code text-label-code text-on-surface-variant">MIT License</span><span class="px-space-sm py-1 rounded bg-surface-container-high font-label-code text-label-code text-vue-teal">Vue 3 &amp; TypeScript</span></div></div><div class="space-y-space-sm"><div class="font-label-badge text-label-badge text-on-surface uppercase tracking-wider font-semibold">Product</div><ul class="space-y-space-xs"><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" data-path="features" href="#">Features</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" data-path="schema-builder" href="#">Schema Builder</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" data-path="examples" href="#">Examples</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" data-path="playground" href="#">Playground</a></li></ul></div><div class="space-y-space-sm"><div class="font-label-badge text-label-badge text-on-surface uppercase tracking-wider font-semibold">Developers</div><ul class="space-y-space-xs"><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" data-path="documentation" href="#">Documentation</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" data-path="npm" href="#">NPM Package</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" data-path="changelog" href="#">Changelog</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" data-path="api-reference" href="#">API Reference</a></li></ul></div><div class="space-y-space-sm"><div class="font-label-badge text-label-badge text-on-surface uppercase tracking-wider font-semibold">Community</div><ul class="space-y-space-xs"><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" data-path="github" href="#">GitHub Repository</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" data-path="discussions" href="#">Discussions</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" data-path="contributing" href="#">Contributing</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" data-path="discord" href="#">Discord Server</a></li></ul></div></div><div class="pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-body-sm text-body-sm"><p>© 2025 Dymik Form. Engineered for high-velocity frontend teams.</p><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" data-path="terms-of-service" href="#">Terms of Service</a><span class="font-label-code text-label-code text-vue-teal">v1.2.0 • Stable</span></div></div></div></footer>
+</div></main><footer class="w-full bg-surface-container-low py-space-xl shadow-[0_-1px_8px_rgba(0,0,0,0.02)]"><div class="max-w-[1440px] mx-auto px-margin"><div class="grid grid-cols-2 md:grid-cols-5 gap-space-lg mb-space-xl"><div class="col-span-2 space-y-space-sm"><div class="flex items-center gap-space-sm"><img alt="Dymik Form Brand Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1W5p2NuxKpJvCRFIfm6KjsscHUYYvyPCGCcX6xCPvsirNVir6Wr90ohUPd1S5cSTRGYOw44iTLRltNAStKOVP2svJqr-jSf3l9MIW6AR8ecVXOeQy9rOEAGJhht0WEk46flY1cooToR0-Ks3U9m-Lf6SS2J0KPbtK4Gm1e1PK81gbbibSkfzGfEQXXjtn6q7CNmoibXdUp8BrVMYXZDh65no1tqf4qSkIPlrEO-NDZKk0a7L0MZPZsbAA"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Dymik<span class="text-primary-container font-headline-sm">Form</span></span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">High-performance dynamic schema form engine built specifically for modern Vue.js reactive architectures and frontend developers.</p><div class="flex items-center gap-space-sm pt-space-xs"><span class="px-space-sm py-1 rounded bg-surface-container-high font-label-code text-label-code text-on-surface-variant">MIT License</span><span class="px-space-sm py-1 rounded bg-surface-container-high font-label-code text-label-code text-vue-teal">Vue 3 &amp; TypeScript</span></div></div><div class="space-y-space-sm"><div class="font-label-badge text-label-badge text-on-surface uppercase tracking-wider font-semibold">Product</div><ul class="space-y-space-xs"><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" href="#features">Features</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" href="/json-preview">Schema Builder</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" href="/docs">Examples</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" href="/json-preview">Playground</a></li></ul></div><div class="space-y-space-sm"><div class="font-label-badge text-label-badge text-on-surface uppercase tracking-wider font-semibold">Developers</div><ul class="space-y-space-xs"><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" href="/docs">Documentation</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" href="https://www.npmjs.com/package/@dymik-form/dymik-vue" target="_blank">NPM Package</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" href="https://github.com/dymik-form/dymik/releases" target="_blank">Changelog</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" href="/docs">API Reference</a></li></ul></div><div class="space-y-space-sm"><div class="font-label-badge text-label-badge text-on-surface uppercase tracking-wider font-semibold">Community</div><ul class="space-y-space-xs"><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" href="https://github.com/dymik-form/dymik" target="_blank">GitHub Repository</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" href="https://github.com/dymik-form/dymik/discussions" target="_blank">Discussions</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" href="https://github.com/dymik-form/dymik/blob/main/CONTRIBUTING.md" target="_blank">Contributing</a></li><li role="none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors block" href="https://github.com/dymik-form/dymik" target="_blank">Discord Server</a></li></ul></div></div><div class="pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-body-sm text-body-sm"><p>© 2025 Dymik Form. Engineered for high-velocity frontend teams.</p><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" href="https://github.com/dymik-form/dymik" target="_blank">Privacy Policy</a><a class="hover:text-on-surface transition-colors" href="https://github.com/dymik-form/dymik" target="_blank">Terms of Service</a><span class="font-label-code text-label-code text-vue-teal">v1.0.0 • Stable</span></div></div></div></footer>
 </div>
 </template>
 
 <script lang="ts" setup>
-
 import { ref } from 'vue';
-
-
 
 // Interactive state for playground
 const activeTab = ref<'reg' | 'checkout' | 'survey'>('reg');
@@ -571,9 +498,6 @@ const playgroundSchemas = {
     }
 };
 
-
-
-
 </script>
 
 <style scoped>
@@ -581,5 +505,3 @@ const playgroundSchemas = {
     width: 100%;
 }
 </style>
-
-

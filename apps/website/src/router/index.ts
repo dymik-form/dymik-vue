@@ -45,6 +45,11 @@ const routes = [
         component: JsonPreviewForm
       }
     ]
+  },
+  {
+    path: '/playground',
+    name: 'Playground',
+    component: () => import('@/views/playground/index.vue')
   }
 ];
 

@@ -1,6 +1,6 @@
 {
   "name": "@dymik-form/dymik-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dynamic form library for Vue 3 with built-in validation support (Zod, ArkType)",
   "keywords": [
     "vue",
